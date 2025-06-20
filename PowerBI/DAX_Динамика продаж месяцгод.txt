@@ -1,0 +1,6 @@
+ROI by Region = 
+DIVIDE(
+    [Total Revenue] - SUM(Sales[Cost]),
+    SUM(Sales[Cost]),
+    0
+)
